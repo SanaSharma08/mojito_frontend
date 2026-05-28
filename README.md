@@ -1,4 +1,5 @@
 # Velvet Pour – Modern Indian Mixology Lounge
+* **Demo** - https://shahishikanji.netlify.app/
 
 A luxury, interactive single-page web application celebrating high-end Indian speakeasy culture and artisanal mixology. Built with **React**, **Tailwind CSS**, and fluid cinematic animations powered by **GSAP**.
 

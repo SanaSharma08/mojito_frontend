@@ -71,9 +71,23 @@ const Hero = () => {
   return (
     <>
         <section id="hero" className='noisy'>
-            <h1 className='title'>
-                MOJITO
-            </h1>
+            {/* Added items-center and w-full to make it center perfectly */}
+            <div className="flex flex-col items-center justify-center w-full select-none text-center px-4">
+                
+                {/* Massive Hindi Title */}
+                <h1 className="text-[#d4af37] text-[12vw] md:text-[10rem] font-serif font-black leading-none tracking-tight drop-shadow-lg">
+                    शाही
+                </h1>
+                
+                {/* The English counterpart - now beautifully framing the center */}
+                <div className="flex items-center w-full max-w-4xl gap-4 mt-4">
+                    <span className="h-[2px] bg-[#d4af37]/30 flex-grow" />
+                    <span className="text-white text-2xl md:text-4xl font-sans font-light tracking-[0.4em] uppercase whitespace-nowrap">
+                        Shikanji
+                    </span>
+                    <span className="h-[2px] bg-[#d4af37]/30 flex-grow" />
+                </div>
+            </div>
             <img 
             src="/images/hero-left-leaf.png" 
             alt="left-leaf" 

@@ -8,7 +8,7 @@ const navLinks = [
 	title: "About Us",
  },
  {
-	id: "work",
+	id: "art",
 	title: "The Art",
  },
  {
@@ -100,20 +100,20 @@ const goodLists = [
  "Freshly muddled flavors",
 ];
 
+// Indian Modification
 const storeInfo = {
- heading: "Where to Find Us",
- address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
- contact: {
-	phone: "(555) 987-6543",
-	email: "hello@jsmcocktail.com",
- },
+  heading: "Padharo Mhare Des", // Traditional welcoming phrase meaning "Welcome to our land"
+  address: "Plot 12, Level 3, Khan Market, New Delhi, Delhi 110003",
+  contact: {
+    phone: "+91 11 4987 6543",
+    email: "namaste@jsmcocktail.com",
+  },
 };
 
 const openingHours = [
- { day: "Mon–Thu", time: "11:00am – 12am" },
- { day: "Fri", time: "11:00am – 2am" },
- { day: "Sat", time: "9:00am – 2am" },
- { day: "Sun", time: "9:00am – 1am" },
+  { day: "Mon–Thu (Shanti Hours)", time: "12:00 PM – 12:00 AM IST" },
+  { day: "Fri–Sat (Jashn Nights)", time: "12:00 PM – 01:30 AM IST" },
+  { day: "Sun (Sufi Brunch)", time: "11:00 AM – 11:00 PM IST" },
 ];
 
 const socials = [
@@ -134,39 +134,40 @@ const socials = [
  },
 ];
 
+// Menu carousel data
 const sliderLists = [
- {
-	id: 1,
-	name: "Classic Mojito",
-	image: "/images/drink1.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 2,
-	name: "Raspberry Mojito",
-	image: "/images/drink2.png",
-	title: "A Zesty Classic That Never Fails",
-	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
- },
- {
-	id: 3,
-	name: "Violet Breeze",
-	image: "/images/drink3.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 4,
-	name: "Curacao Mojito",
-	image: "/images/drink4.png",
-	title: "Crafted With Care, Poured With Love",
-	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
- },
+  {
+    id: 1,
+    name: "Saffron Aam Bliss",
+    image: "/images/drinkd1.png",
+    title: "Royal Flavors Inspired by Indian Summers",
+    description:
+      "A luxurious blend of ripe mango, saffron essence, mint, and sparkling citrus. Smooth, refreshing, and crafted to capture the richness of Indian summer evenings.",
+  },
+  {
+    id: 2,
+    name: "Jamun Masala Twist",
+    image: "/images/drinkd2.png",
+    title: "Tangy, Spiced, and Unforgettably Indian",
+    description:
+      "Fresh jamun juice mixed with lime, black salt, mint, and a hint of masala creates a bold street-style cooler bursting with sweet and tangy flavors.",
+  },
+  {
+    id: 3,
+    name: "Rose Thandai Spark",
+    image: "/images/drinkd3.png",
+    title: "A Floral Fusion With a Festive Soul",
+    description:
+      "Inspired by traditional thandai, this sparkling drink combines rose syrup, cardamom, fennel, and creamy almond notes for a refreshing royal experience.",
+  },
+  {
+    id: 4,
+    name: "Kokum Sunset Cooler",
+    image: "/images/drinkd4.png",
+    title: "Crafted With Coastal Vibes and Bold Taste",
+    description:
+      "A vibrant kokum-based cooler infused with citrus and herbs, bringing together sweet, tangy, and refreshing flavors inspired by India’s western coast.",
+  },
 ];
 
 export {
